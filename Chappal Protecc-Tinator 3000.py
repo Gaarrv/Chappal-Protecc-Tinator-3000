@@ -78,7 +78,7 @@ while True:
 
 
 
-        vol = np.interp(lenght, [100, 300], [minVol, maxVol])
+        vol = np.interp(lenght, [40, 300], [minVol, maxVol])
         volBar = np.interp(lenght, [100, 300], [400, 150])
         volPer = np.interp(lenght, [100, 300], [0, 100])
         print("Length between Ring finger and Palm: ", int(len3))
