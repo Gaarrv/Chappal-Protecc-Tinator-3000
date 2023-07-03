@@ -23,7 +23,7 @@ cap.set(4, hCam)
 pTime = 0
 browserExe = "chrome.exe"
 
-detector = htm.handDetector()
+detector = htm.handDetector(detectionCon=0.75)
 
 devices = AudioUtilities.GetSpeakers()
 interface = devices.Activate(
